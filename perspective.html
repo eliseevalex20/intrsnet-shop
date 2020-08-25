@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/media.css">
 
-    <title>Oregon</title>
+    <title>Perspective</title>
 </head>
 <body>
     <div class="top-h">
@@ -48,7 +48,7 @@
         </ul>
       </div>
     
-      <div class="main-section">
+      <div class="main-section_direction">
         <div class="container main">
           <div class="main-section__header">
             <div class="header-left">
@@ -63,11 +63,74 @@
               </div>
     
               <div class="block-center main">
-                <p class="block-center__title">ИНТЕРНЕТ-МАГАЗИН <span class="yelow">“ОРЕГОН”</span> </p>
-                <p class="block-center__text">Это новый этап в развитии компании «Орегон» и индустрии региона в целом.</p>
-                <p class="block-center__text two">Гипермаркет прямо у вас на экране. Самый широкий ассортимент продукции строительных и отделочных материалов во всём Крыму. Более 100 тыс. наименований сейчас и более 1 млн. в течении следующего года.</p>
-    
-                <a href="index.html#" class="block-center__link">Вступить в клуб</a>
+                <p class="p_direct"> <span class="yelow">В БЛИЖАЙШЕЕ ВРЕМЯ НА САЙТЕ ПОЯВЯТСЯ</span> </p>
+                <div type="button" class="email-bt two">
+                  <div class="text-call">
+                    <img src="img/play-two.png" alt="">
+                  </div>
+                </div>
+                <div class="slider">
+                    <div class="slider__wrapper">
+                      <div class="slider__item">
+                        <div class="slider_inner slide_flex">
+                          <div class="img_sliders">
+                              <img src="img/perspective/Clip.png" alt="" class = "image_insl"> 
+                               <p>1111</p>
+                          </div>
+                          <div class="img_sliders">
+                              <img src="img/perspective/Clip.png" alt="" class = "image_insl">
+                              <p class="p_slide">1111</p>
+                          </div>
+                          <div class="img_sliders">
+                              <img src="img/perspective/Clip.png" alt="" class = "image_insl">
+                              <p class="p_slide">1111</p>
+                          </div>
+                          <div class="img_sliders">
+                              <img src="img/perspective/Clip.png" alt="" class = "image_insl">
+                              <p class="p_slide">1111</p>
+                          </div>
+                          <div class="img_sliders">
+                              <img src="img/perspective/Clip.png" alt="" class = "image_insl">
+                              <p class="p_slide">1111</p>
+                          </div>
+                          <div class="img_sliders">
+                              <img src="img/perspective/Clip.png" alt="" class = "image_insl">
+                              <p class="p_slide">1111</p>
+                          </div>
+                          <div class="img_sliders">
+                              <img src="img/perspective/Clip.png" alt="" class = "image_insl">
+                              <p class="p_slide">1111</p>
+                          </div>
+                          <div class="img_sliders">
+                              <img src="img/perspective/Clip.png" alt="" class = "image_insl">
+                              <p class="p_slide">1111</p>
+                          </div>
+                          <div class="img_sliders">
+                              <img src="img/perspective/Clip.png" alt="" class = "image_insl">
+                              <p class="p_slide">1111</p>
+                          </div>
+                          <div class="img_sliders">
+                              <img src="img/perspective/Clip.png" alt="" class = "image_insl">
+                              <p class="p_slide">1111</p>
+                          </div>
+                        </span>
+                      </div>
+                      </div>
+                      
+                      <div class="slider__item no_show">
+                        <div style="height: 250px;"></div>
+                      </div>
+                    </div>
+                    <!-- <div class="control"> -->
+                    <div class="no_show">
+                    <a class="slider__control slider__control_left ch2" href="#" role="button"></a>
+                    <span class="span_slide yelow">01</span>
+                    <div class="control_state state1"></div>
+                    <div class="control_state state2"></div>
+                    <span class="span_slide yelow">02</span>
+                    <a class="slider__control slider__control_right slider__control_show ch" href="#" role="button"></a>
+                    </div>
+                  </div>
               </div>
             </div>
     
@@ -75,16 +138,12 @@
               <a href="tel:+88003025880" class="header-right__tel">8 800 302 58 80</a>
               <p class="header-right__text">обратный звонок</p>
             </div>
-          </div>
-    
-          <div class="main-section__bottom">
-            <p class="bottom_p lg_text_bottom">ПРОСТО И УДОБНО!</p>
-            <p class="bottom_p"><span>Интернет-магазин призван облегчить для наших клиентов поиск и выбор товаров. Выбирайте товары прямо с фотографий интерьеров. Подписывайтесь на интересующие вас группы товара, отслеживайте акции, получайте уведомления о новых поступлениях и об изменении цен. Сравнивайте товары и добавляйте в избранное. Всё лучшее – здесь!</span></p>
+            
           </div>
         </div>
       </div>
+      <a href="main.html">ГЛАВНАЯ</a>
       <a href="directions.html">НАПРАВЛЕНИЯ</a>
-      <a href="advantages.html">ПРЕИМУЩЕСТВА</a>
       <a href="choice.html">ВЫБОР ТОВАРА</a>
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -96,6 +155,24 @@
       <script src="js/slick/slick.min.js"></script>
       <script src="js/main.js"></script>
     
+      <script>
+        var state1 = document.querySelector(".state1");
+        var state2 = document.querySelector(".state2");
+        var ch = document.querySelector(".ch");
+        var ch2 = document.querySelector(".ch2");
+      function change1() { 
+          state2.className = 'control_state  state2_change';
+          state1.className = 'control_state  state1_change';
+      }
+      function change2(){
+          state2.className = 'control_state  state2';
+          state1.className = 'control_state  state1';
+        }    
+      
+      ch.onclick = change1;
+      ch2.onclick = change2;
+    </script>
+
       <script>
         $(document).ready(function() {
           function checkWidth() {
