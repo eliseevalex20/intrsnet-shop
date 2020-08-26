@@ -466,6 +466,9 @@
     }
 
 @media (max-width: 1024px) {
+  .main-section .container.main{
+    height: 120vh;
+  }
   .container_slide{
     margin-left: 10%;
   }
