@@ -447,6 +447,26 @@
   /* line 411, media.scss */
   .form-str .input-block {
     width: 90%; } }
+
+    @media (max-width: 800px) {
+      .main-section__bottom{
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        top: 45px;
+      }
+      .container{
+        overflow-x: inherit;
+      }
+      .lg_text_bottom{
+        font-size: 15px;
+      }
+      .bottom_p{
+        font-size: 12px;
+      }
+    }
+
 @media (max-width: 1024px) {
   /* line 417, media.scss */
   .header-left .block-center__title {
@@ -471,7 +491,9 @@
     padding-top: 100px; }
 
     .main-section__bottom{
-      width: 70%;
+      top: 0;
+      width: 95%;
+      margin: 0;
     }
 
   /* line 435, media.scss */
