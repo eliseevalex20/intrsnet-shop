@@ -1796,13 +1796,22 @@ body {
 .slide_text{
   font-size: 16px;
 }
+.inner-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
 
 .container_slide{
-  margin-top: 120px;
+  margin-top: 100px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .content_slide{
   background: #fff;
+  margin-top: 10px;
   height: 350px;
   width: 300px;
   padding: 45px;

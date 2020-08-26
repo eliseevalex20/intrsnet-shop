@@ -456,9 +456,7 @@
         padding: 15px;
         top: 45px;
       }
-      .container{
-        overflow-x: inherit;
-      }
+      
       .lg_text_bottom{
         font-size: 15px;
       }
@@ -468,6 +466,9 @@
     }
 
 @media (max-width: 1024px) {
+  .container_slide{
+    margin-left: 10%;
+  }
   /* line 417, media.scss */
   .header-left .block-center__title {
     font-size: 50px;
@@ -707,8 +708,7 @@
     line-height: 20px; } }
 @media (max-width: 768px) {
   /* line 634, media.scss */
-  .container {
-    min-height: auto; }
+  
 
   /* line 638, media.scss */
   .top-h {
